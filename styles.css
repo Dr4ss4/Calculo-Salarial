@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/fotos-gratis/conceito-de-orcamento-e-financas-de-calculadora-imobiliaria_53876-127087.jpg?w=740&t=st=1700075584~exp=1700076184~hmac=41c423e559887d26c972d0205cd8c8bdd99fd85eb90810411d85cf691801b517);
+    height: 70vh;
+    width: 70vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tela{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h2 {
+    color: #191919;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(76, 172, 175);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a09b;
+}
+
+p {
+    margin-top: 20px;
+}
